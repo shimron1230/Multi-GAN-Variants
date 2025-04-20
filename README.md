@@ -28,7 +28,7 @@ pip install torch torchvision numpy
 ### 2. Run Training
 
 ```bash
-python main.py --gan_type softmax --dataset mnist --n_epochs 200
+python multi_gan.py --gan_type softmax --dataset mnist --n_epochs 200
 ```
 
 ### 3. Available Command Line Arguments
